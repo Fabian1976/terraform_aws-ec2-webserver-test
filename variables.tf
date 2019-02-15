@@ -25,5 +25,5 @@ variable "ami" {
 
 variable "key_path" {
   description = "SSH Public Key path"
-  default     = "~/.ssh/id_rsa_terraform_test.pub"
+  default     = "~/.ssh/id_rsa_terraform_test"
 }

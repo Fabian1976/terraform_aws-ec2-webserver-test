@@ -13,3 +13,11 @@ resource "aws_instance" "wb" {
     Name = "webserver"
   }
 }
+
+output "Public URL" {
+  value = "http://${aws_instance.wb.public_ip}"
+}
+
+output "SSH access" {
+  value = "ssh -i ${var.key_path} centos@${aws_instance.wb.public_ip}"
+}
