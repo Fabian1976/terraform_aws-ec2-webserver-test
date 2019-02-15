@@ -28,7 +28,7 @@ cd terraform_aws-ec2-webserver-test
 terraform init
 ```
 
-In the ```variables.tf``` you can change region, subnet of ami settings.
+In the ```variables.tf``` you can change region, subnet or ami settings.
 
 Finally run:
 ```
