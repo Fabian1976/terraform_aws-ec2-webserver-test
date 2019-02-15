@@ -1,0 +1,6 @@
+*.swp
+*.pyo
+*.pyc
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
